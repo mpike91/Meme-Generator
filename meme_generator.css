@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+h2 {
+    text-align: center;
+}
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+div.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+input {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 700;
+    height: 40px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+input:focus {
+    background-color:cornflowerblue;
+}
+.submit {
+    background-color: rgba(0, 160, 43, 0.35);
+}
+.submit:active {
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+.delete {
+    background-color: rgba(160, 0, 43, 0.35);
+    box-sizing: border-box;
+}
+.delete:active {
+    background-color:cornflowerblue;
+    border: 2px solid black;
+}
+.deleteActive {
+    background-color: cornflowerblue;
+    height: 40px;
+    width: 110px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+button {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: 700;
+    height: 35px;
+    width: 100px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+#memeContainer {
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+    width: calc(100% - 100px);
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.meme {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.text {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+.top {
+    position: absolute;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+.bot {
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
